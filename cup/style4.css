@@ -12,6 +12,7 @@ body{
 
 .topbg{
 	width: 100%;
+	box-sizing: border-box;
 	height: 121px;
 	background-color: #e8ebf1;
 	border: 1px solid rgba(0, 0, 0, 0.15);
@@ -188,8 +189,13 @@ li .menu li:hover a{
 	background-color: white;
 	opacity: 1;
 }
+
+
+
+
 .middle{
 	width: 100%;
+	box-sizing: border-box;
 	height: 302px; 
 	background-color: #e8ebf1;
 	border: 1px solid rgba(0, 0, 0, 0.15);
@@ -471,6 +477,7 @@ h1:before{
 
 footer{
 	width: 100%;
+	box-sizing: border-box;
 	height: 320px;
 	background-color: #e8ebf1;
 	border: 1px solid rgba(0, 0, 0, 0.15);
