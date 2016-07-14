@@ -1,11 +1,12 @@
 body{
 	padding: 10px;
+	background-image: url(fon.jpg);
 }
 h1{
-	color:blue;
+	color: #6495ED;
 }
 h2{
-	color:green;
+	color:#66CDAA;
 }
 a{
 	display: block;
