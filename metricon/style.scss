@@ -1,0 +1,361 @@
+$colortext: white;
+$colortext2: #292929;
+$colorH3: #f26b09;
+$colorH4: #282828;
+$bgColor: #20201f;
+$bgColor2: #37393f;
+$colorbtn: #ab5211;
+$sizeHeader1: 50px;
+$sizeHeader2: 23px;
+$sizeText: 18px;
+$fontWeight: 400;
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	padding: 0px;
+}
+.btn{
+	width: 180px;
+	height: 40px;
+	border-radius: 0px;
+	color: $colortext;
+	background-color: $colorbtn;
+	font-size: $sizeText;
+	font-weight: $fontWeight;
+}
+p{
+	line-height: 20px;
+}
+
+.topmenu{
+	height: 102px;
+	width: auto;
+	background-color: $bgColor;
+	border-bottom: 2px solid #ff6c00;
+	.logo{
+		margin-top: 20px;
+	}
+	form{
+		margin-top: 30px;
+		.form-group{
+			width: 180px;
+			height: 40px;
+			margin-right: 10px;
+			.form-control{
+				border-radius: 0px;
+				width: 180px;
+				height: 40px;
+				border: 1px solid #525252;
+				color: #adadad;				
+				font-size: 20px;
+				font-weight: $fontWeight;
+				background-color: $bgColor;
+				&:focus{
+					border: 1px solid $colorbtn;
+				}
+			}
+		}
+		
+		.btn{
+			width: 100px;						
+		}
+	}	
+}
+
+
+.carousel{
+	.carousel-indicators{
+		li{
+			width: 20px;
+  			height: 20px;
+  			border-radius: 0px;
+  			margin: 8px;
+  			background-color: $bgColor;
+  			border: none;
+  			&:hover{
+  				background-color: $colorbtn;
+  			}
+		}
+		.active{
+			background-color: $colortext;
+		}
+	}
+	.carousel-inner{
+		color: $colortext;		
+		.item{ 
+		    height: 698px;
+		}
+		.slider1{
+			background: url(img/slider1.png) no-repeat center center;
+			background-size: cover; 			
+		}
+		.slider2{
+			background: url(img/slider2.png) no-repeat center center;
+			background-size: cover;  			
+		}
+		.slider3{
+			background: url(img/slider3.png) no-repeat center center; 
+			background-size: cover; 			
+		}
+		.carousel-caption{
+			position: absolute;
+			left: 50%;
+			padding: 0px;
+			text-shadow: 1.5px 2.6px 3.8px rgba(0, 0, 0, 0.75);			
+			p{
+				font-size: $sizeText + 22px;
+				font-weight: $fontWeight;
+				margin: 0px;
+				line-height: 44px;
+			}
+		}
+		.slidertext1{			
+			top: 235px;
+			margin-left: -282px;			
+			width: 569px;
+			height: 207px;
+			padding: 0px;
+			
+			h1{
+				font-size: $sizeText + 52px;
+				font-weight: $fontWeight + 300;
+				margin-top: 0px;				
+			}
+			
+		}
+		.slidertext2, .slidertext3{
+			top: 306px;
+			width: 849px;
+			margin-left: -425px;  
+			height: 88px;
+			.btn{
+				position: absolute;
+				bottom: -103px;
+				left: 50%;
+				margin-left: -90px;
+				background-color: $bgColor;	
+				border-color: $bgColor;
+				color: $colortext;
+				font-size: $sizeText;
+				&:hover{
+					background-color: $colortext;
+					color: $colortext2;  
+				}
+			}
+		}		
+	}
+	a{
+		color: $colorbtn;
+	}	
+}
+
+.blocks{
+	background-color: $bgColor2;
+	color: $colortext;
+	.points{
+		height: 700px;
+		padding: 99px 6px 0px 6px;
+		&:before{
+			content:'';
+			display: block;
+			width: 212px;
+			height: 144px;
+			background-repeat: no-repeat;
+    		background-position: 50%;
+    		margin: 0 auto;	
+		}
+		h2{
+			font-size: $sizeText + 12px;
+			font-weight: $fontWeight + 300;
+			margin: 58px 0px 22px 0px;
+			text-align: center;
+		}
+		p{
+			font-size: $sizeText - 2px;
+			font-weight: $fontWeight;
+		}
+		.btn{
+			position: absolute;
+			bottom: 101px;
+			left: 50%;
+			margin-left: -90px;
+			background-color: $colorbtn;	
+			border: none;
+			&:hover{
+				background-color: $colortext;
+				color: $colortext2;  
+			}
+		}
+
+	}
+	.advt{
+		&:before{
+			background-image: url(img/advt.png);
+		}
+
+	}
+	.web{
+		&:before{
+			background-image: url(img/web.png);
+		}
+
+	}
+	.partners{
+		&:before{
+			background-image: url(img/partners.png);
+		}
+
+	}
+
+}
+
+.middle{
+	h3{
+		color: $colorH3;
+		font-size: $sizeText + 32px;
+		text-align: center;
+	}
+	h4{
+		color: $colorH4;
+		font-size: $sizeText + 5px;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	p{
+		color: $colortext2;
+		font-size: $sizeText;		
+		margin-bottom: 27px;
+	}
+	.points2{
+		font-weight: $fontWeight;
+		padding: 80px 0px 40px 0px;
+		&:before{
+			content:'';
+			display: block;
+			width: 560px;
+			height: 290px;
+			background-repeat: no-repeat;
+    		background-position: 50%;
+    		margin: 0 auto;	
+    		margin: 0px;
+		}
+	}
+	.web2{
+		&:before{
+			background-image: url(img/web2.png);
+		}
+	}
+	.advt2{		
+		&:before{
+			background-image: url(img/advt2.png);
+		}
+	}
+	.partners2{
+		position: relative;
+		height: 505px;
+		background: url(img/partners2.png) no-repeat center center;
+		background-size: cover; 		
+		.textbox{
+			position: absolute;
+			background-color: $colortext;
+			width: 767px;
+			height: 367px;	
+			top: 50%;
+			left: 50%;	
+			margin-left: -383px;
+			margin-top: -183px;
+			text-align: center;
+			padding: 17px 90px 40px 90px;
+		}
+	}
+	.about{
+		width: 886px;
+		height: 192px;
+		margin: 98px auto;
+		h3{
+			margin-top: 0px;
+		}
+		p{
+			text-align: center;
+		}
+	}
+}
+
+.network{	
+	background-color: #e7e7e7;
+	.sq{
+		width: 553px;
+		&:before{
+			content:'';
+			display: block;
+			width: 300px;
+			height: 93px;
+			background-repeat: no-repeat;
+    		background-position: 50%;
+    		margin: 0 auto;
+    		margin-top: 54px;
+    		margin-bottom: 59px;	
+		}
+		p{
+			color: $colortext2;
+			font-size: $sizeText;
+			font-weight: $fontWeight;
+			&:last-child{
+				margin-bottom: 79px;
+			}			
+		}
+	}
+	.adforce{
+		&:before{
+			background-image: url(img/adforce.png);
+		}
+	}
+	.utarget{
+		&:before{
+			background-image: url(img/utarget.png);
+		}
+	}
+}
+
+footer{
+	background-color: $bgColor2;
+	min-height: 160px;	
+	font-size: $sizeText;
+	font-weight: $fontWeight - 100;
+	.icon, .contacts{
+		float: left;
+	}
+	.contacts{
+		width: 186px;
+		margin-top: 55px;
+		a{
+			color: rgba(255,255,255, 0.3);
+			&:hover{
+				color: $colorH3;
+				text-decoration: none;
+				border-bottom: 1px dashed $colorH3;
+			}
+		}
+	}
+	.icon-mail{
+		width: 72px;
+		height: 50px;
+		background-image: url(img/mail.png);
+		margin: 55px 20px 55px 0px;
+	}
+	.icon-skype{
+		width: 64px;
+		height: 64px;
+		background-image: url(img/skype.png);
+		margin: 48px 20px 48px 0px;
+	}
+	.copy{		
+		opacity: 0.3;
+		color: white;
+		margin-top: 73px;
+		text-align: right;
+	}
+}

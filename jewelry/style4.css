@@ -8,11 +8,10 @@ body{
 	position: relative;
 }
 .headerbg{
-	width: 1920px;
 	height: 800px;
-	background-color: black;
 	background-image: url(img/headerbg.png); 
 	background-repeat: no-repeat;
+	background-position: center;
 	margin: 0 auto;	
 }
 .header{
