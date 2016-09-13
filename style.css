@@ -1,14 +1,12 @@
 body{
 	padding: 10px;
-	background-image: url(fon.jpg);
-}
-h1{
-	color: #6495ED;
-}
-h2{
-	color:#66CDAA;
 }
 a{
 	display: block;
 	padding: 5px;
+	text-decoration: none;
+	color: black;
+}
+a:visited{
+	color: gray;
 }
