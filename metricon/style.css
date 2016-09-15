@@ -59,13 +59,13 @@ p {
   .carousel .carousel-inner .item {
     height: 698px; }
   .carousel .carousel-inner .slider1 {
-    background: url(img/slider1.png) no-repeat center center;
+    background: url(img/slider1.jpg) no-repeat center center;
     background-size: cover; }
   .carousel .carousel-inner .slider2 {
-    background: url(img/slider2.png) no-repeat center center;
+    background: url(img/slider2.jpg) no-repeat center center;
     background-size: cover; }
   .carousel .carousel-inner .slider3 {
-    background: url(img/slider3.png) no-repeat center center;
+    background: url(img/slider3.jpg) no-repeat center center;
     background-size: cover; }
   .carousel .carousel-inner .carousel-caption {
     position: absolute;
