@@ -1,16 +1,297 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Natalia Zykina - Frontend developer</title>
+
+	<!-- CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
+	<link href="assets/css/animate.css" rel="stylesheet">
+    
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+    
+    <script src="assets/js/modernizr.custom.js"></script>
+       
 </head>
 <body>
-	<h1>Natalia Zykina</h1>
-	<h2>My works</h2>
-	<a href="cup/3maket.html" target="blank">Cup (HTML5/CSS3, JS/jQ)</a>
-	<a href="jewelry/maket4.html" target="blank">Jewelry (HTML5/CSS3)</a>
-	<a href="phoneshop/maket5.html" target="blank">Phoneshop (HTML5/CSS3, SASS)</a>
-	<a href="frontend_task/last.html" target="blank">Frontend_task (HTML5/CSS3, SASS, JS/jQuery)</a>
-	<a href="metricon/metricon.html" target="blank">Metricon (HTML5/CSS3, SASS, Bootstrap)</a>
+
+	<!-- Preloader -->
+
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
+
+	<!-- Home start -->
+
+	<section id="home" class="pfblock-image screen-height">
+        <div class="home-overlay"></div>
+		<div class="intro">
+			<div class="start">Hello, my name is Natalia Zykina and I am</div>
+			<h1>Frontend Developer</h1>
+		</div>
+
+        <a href="#portfolio">
+		<div class="scroll-down">
+            <span>
+                <i class="fa fa-angle-down fa-2x"></i>
+            </span>
+		</div>
+        </a>
+
+	</section>
+
+	<!-- Home end -->
+
+	<!-- Navigation start -->
+
+	<header class="header">
+
+		<nav class="navbar navbar-custom" role="navigation">
+
+			<div class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Natalia Zykina</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">Home</a></li>
+                        <li><a href="#portfolio">Works</a></li>
+                        <li><a href="#skills">Skills</a></li>						
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+
+			</div><!-- .container -->
+
+		</nav>
+
+	</header>
+
+	<!-- Navigation end -->
+
+   
+    
+	<!-- Portfolio start -->
+
+	<section id="portfolio" class="pfblock">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="pfblock-header wow fadeInUp">
+						<h2 class="pfblock-title">My works</h2>
+						<div class="pfblock-line"></div>
+						
+					</div>
+
+				</div>
+
+			</div><!-- .row -->
+            
+            
+            <div class="row">
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                        	<a href="cup/3maket.html" target="blank" style="display: block">
+                            	<img src="assets/images/item-1.jpg" alt="img01"/>        
+	                            <figcaption>
+	                                <h2>Cup</h2>
+	                                <p>HTML5/CSS3, JS/jQ</p>
+	                            </figcaption>
+                            </a>			
+                        </figure>
+                    </div>
+                    
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">                           
+                            <a href="jewelry/maket4.html" target="blank" style="display: block">
+                            	<img src="assets/images/item-2.jpg" alt="img01"/>
+	                            <figcaption>
+	                                <h2>Jewelry</h2>
+	                                <p>HTML5/CSS3</p>
+	                            </figcaption>
+                            </a>			
+                        </figure>
+                    </div>
+                    
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">                            
+                            <a href="phoneshop/maket5.html" target="blank" style="display: block">
+                            	<img src="assets/images/item-3.jpg" alt="img01"/>
+	                            <figcaption>
+	                                <h2>Phoneshop</h2>
+	                                <p>HTML5/CSS3, SASS</p>
+	                            </figcaption>	
+	                        </a>    		
+                        </figure>
+                    </div>
+                    
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">                            
+                            <a href="frontend_task/last.html" target="blank" style="display: block">
+                            	<img src="assets/images/item-4.jpg" alt="img01"/>
+	                            <figcaption>
+	                                <h2>FE_task</h2>
+	                                <p>HTML5/CSS3, SASS, JS/jQuery</p>
+	                            </figcaption>			
+                            </a>
+                        </figure>
+                    </div>
+                    
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">                            
+                            <a href="metricon/metricon.html" target="blank" style="display: block">
+                            	<img src="assets/images/item-5.jpg" alt="img01"/>
+	                            <figcaption>
+	                                <h2>Metricon</h2>
+	                                <p>HTML5/CSS3, SASS, Bootstrap</p>
+	                            </figcaption>
+                            </a>			
+                        </figure>
+                    </div>
+                    
+                </div>
+                                
+                
+            </div>
+
+
+		</div><!-- .contaier -->
+
+	</section>
+
+	<!-- Portfolio end -->
+    
+    <!-- Skills start -->
+    
+    <section class="pfblock pfblock-gray" id="skills">
+		
+			<div class="container">
+			
+				<div class="row skills">
+					
+					<div class="row">
+
+                        <div class="col-sm-6 col-sm-offset-3">
+
+                            <div class="pfblock-header wow fadeInUp">
+                                <h2 class="pfblock-title">My Skills</h2>
+                                <div class="pfblock-line"></div>
+                                <div class="pfblock-subtitle">
+                                	<div>HTML5, CSS3</div>
+                                	<div>JavaScript</div>
+                                	<div>jQuery</div>
+                                	<div>SASS, LESS</div>
+                                	<div>Bootstrap</div>
+                                	<div>Pixel Perfect</div>                             
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div><!-- .row -->
+					
+					
+				</div><!--End row -->
+			
+			</div>
+		
+    </section>
+    
+    <!-- Skills end -->
+
+	
+	<!-- Contact start -->
+
+	<section id="contact" class="pfblock">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="pfblock-header">
+						<h2 class="pfblock-title">Contact me</h2>
+						<div class="pfblock-line"></div>
+						<div class="pfblock-subtitle">
+							I'm available for your offers.
+						</div>
+						<div class="pfblock-line"></div>
+						<div class="pfblock-subtitle">
+							<div>E-mail: natakina7@gmail.com</div> 
+							<div>tel: +380 66 089 36 18</div>
+							<div>skype: nzykina88</div>
+							
+						</div>
+					</div>
+
+				</div>
+
+			</div><!-- .row -->
+
+			
+		</div><!-- .container -->
+	</section>
+
+	<!-- Contact end -->
+
+	
+
+	<!-- Scroll to top -->
+
+	<div class="scroll-up">
+		<a href="#home"><i class="fa fa-angle-up"></i></a>
+	</div>
+    
+    <!-- Scroll to top end-->
+
+	<!-- Javascript files -->
+
+	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+	<script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.easypiechart.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.cbpQTRotator.js"></script>
+	<script src="assets/js/custom.js"></script>
 
 </body>
 </html>
